@@ -1,0 +1,47 @@
+{
+  "name": "koishi-plugin-latex-image",
+  "description": "将LaTeX公式渲染成图片。",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "contributors": [
+    "TTsdzb <ttsdzb@outlook.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TTsdzb/koishi-plugin-latex-image",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TTsdzb/koishi-plugin-latex-image.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "image",
+    "tool"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.9"
+  },
+  "devDependencies": {
+    "koishi-plugin-puppeteer": "^3.4.11"
+  },
+  "koishi": {
+    "description": {
+      "zh": "将LaTeX公式渲染成图片。"
+    },
+    "service": {
+      "required": [
+        "puppeteer"
+      ]
+    },
+    "locales": [
+      "zh"
+    ]
+  }
+}
